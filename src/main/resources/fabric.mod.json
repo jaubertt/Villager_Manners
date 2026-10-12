@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "villager_manners",
+	"version": "${version}",
+	"name": "Villager Manners",
+	"description": "Villagers don't stand on top of workstations, beds, bell and furniture like chests and crafting tables.",
+	"authors": [
+		"Jaubert"
+	],
+	"contact": {},
+	"license": "ARR",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"villagermanners.VillagerManners"
+		],
+		"modmenu": [
+			"villagermanners.client.ModMenuCompat"
+		]
+	},
+	"mixins": [
+		"villager_manners.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
