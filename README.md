@@ -57,7 +57,7 @@ The jar is built by Gradle into build/libs:
 ## Issues
 
 Report bugs and ideas here:
-https://github.com/jaubertt/villager-manners/issues
+https://github.com/jaubertt/Villager_Manners/issues
 
 ## License
 
