@@ -8,7 +8,9 @@ Villagers stand beside their workstation, their bed, the bell and furniture inst
 - A villager already on top of one steps off, and one left on its edge slides off.
 - Villagers don't work while standing on their own workstation.
 - Baby villagers still jump on beds.
+- Villagers don't claim or sleep in a bed that an online player has set as their spawn point. A villager already using it gives it up.
 - Walking or jumping over these blocks on the way somewhere else is unchanged.
+- Villagers find a way around open trapdoors instead of walking into them and getting stuck.
 - When there's no free spot next to the block (like a 1x1 trading hall cell or a bed in a nook), villagers act as in vanilla, so they still work, restock and sleep.
 
 ## Settings
@@ -20,12 +22,14 @@ Each kind of block has its own switch, all on by default. With Mod Menu installe
 | Workstations | Every job site block, modded ones too |
 | Beds | Beds |
 | Baby Villagers Jump on Beds | Lets baby villagers keep jumping on beds (requires Beds) |
+| Leave Player Beds | Beds that online players have set as their spawn point |
 | Bells | Bells |
 | Chests | Chests, trapped chests, ender chests and copper chests, modded ones too |
 | Crafting Tables and Furnaces | Crafting tables and furnaces, modded ones too |
 | Anvils, Enchanting Tables, Decorated Pots, Jukeboxes | Anvils, enchanting tables, decorated pots and jukeboxes |
 | Stairs | Stairs, which village houses use as chairs |
 | Pressure Plates | Pressure plates, which village houses use as tabletops |
+| Open Trapdoors | Villagers find a way around open trapdoors instead of walking into them |
 
 Data packs can add blocks to a switch with the block tags in data/villager_manners/tags/block/stand_beside/.
 

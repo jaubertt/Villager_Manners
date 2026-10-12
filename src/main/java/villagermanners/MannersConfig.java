@@ -20,12 +20,14 @@ public final class MannersConfig {
 	public boolean workstations = true;
 	public boolean beds = true;
 	public boolean childrenJumpOnBeds = true;
+	public boolean playerBeds = true;
 	public boolean bells = true;
 	public boolean chests = true;
 	public boolean craftingTablesAndFurnaces = true;
 	public boolean otherFurniture = true;
 	public boolean stairs = true;
 	public boolean pressurePlates = true;
+	public boolean trapdoors = true;
 
 	public static MannersConfig get() {
 		return current;

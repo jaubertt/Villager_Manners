@@ -31,12 +31,14 @@ public final class SettingsScreen extends OptionsSubScreen {
 		this.list.addBig(this.toggle("beds", c.beds, v -> c.beds = v));
 		this.children = this.toggle("children_jump_on_beds", c.childrenJumpOnBeds, v -> c.childrenJumpOnBeds = v);
 		this.list.addBig(this.children);
+		this.list.addBig(this.toggle("player_beds", c.playerBeds, v -> c.playerBeds = v));
 		this.list.addBig(this.toggle("bells", c.bells, v -> c.bells = v));
 		this.list.addBig(this.toggle("chests", c.chests, v -> c.chests = v));
 		this.list.addBig(this.toggle("crafting_tables_and_furnaces", c.craftingTablesAndFurnaces, v -> c.craftingTablesAndFurnaces = v));
 		this.list.addBig(this.toggle("other_furniture", c.otherFurniture, v -> c.otherFurniture = v));
 		this.list.addBig(this.toggle("stairs", c.stairs, v -> c.stairs = v));
 		this.list.addBig(this.toggle("pressure_plates", c.pressurePlates, v -> c.pressurePlates = v));
+		this.list.addBig(this.toggle("trapdoors", c.trapdoors, v -> c.trapdoors = v));
 		this.refresh();
 	}
 

@@ -7,6 +7,8 @@
   "villager_manners.settings.beds.tooltip": "Keeps Villagers from standing on Beds. They still sleep in them.",
   "villager_manners.settings.children_jump_on_beds": "Baby Villagers Jump on Beds",
   "villager_manners.settings.children_jump_on_beds.tooltip": "Lets Baby Villagers keep jumping on Beds. Requires Beds to be on.",
+  "villager_manners.settings.player_beds": "Leave Player Beds",
+  "villager_manners.settings.player_beds.tooltip": "Villagers don't claim or sleep in a Bed that an online Player has set as their spawn point.",
   "villager_manners.settings.bells": "Bells",
   "villager_manners.settings.bells.tooltip": "Keeps Villagers from standing on Bells.",
   "villager_manners.settings.chests": "Chests",
@@ -19,6 +21,8 @@
   "villager_manners.settings.stairs.tooltip": "Keeps Villagers from standing on Stairs, like the chairs in village houses. They still use Stairs to get around.",
   "villager_manners.settings.pressure_plates": "Pressure Plates",
   "villager_manners.settings.pressure_plates.tooltip": "Keeps Villagers from standing on Pressure Plates, like the ones on village tables.",
+  "villager_manners.settings.trapdoors": "Open Trapdoors",
+  "villager_manners.settings.trapdoors.tooltip": "Keeps Villagers from walking through open Trapdoors, so they find another way around.",
   "modmenu.summaryTranslation.villager_manners": "Villagers stand beside their workstations, beds and furniture, not on top.",
   "modmenu.descriptionTranslation.villager_manners": "Villagers don't stand on top of workstations, beds, bell and furniture like chests and crafting tables."
 }
