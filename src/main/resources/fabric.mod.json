@@ -9,6 +9,7 @@
 	],
 	"contact": {},
 	"license": "ARR",
+	"icon": "assets/villager_manners/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
